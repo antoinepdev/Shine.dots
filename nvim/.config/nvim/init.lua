@@ -1,4 +1,5 @@
 vim.cmd.colorscheme("catppuccin")
 require('options')
+require('keymaps')
 require('autocmds')
 require('usercmds')
