@@ -8,6 +8,7 @@ insert-final-newline = false
 trim-final-newlines = true
 trim-trailing-whitespace = true
 popup-border = 'all'
+end-of-line-diagnostics = 'hint'
 
 [editor.cursor-shape]
 insert = "bar"
