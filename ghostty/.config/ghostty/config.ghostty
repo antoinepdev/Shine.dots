@@ -1,6 +1,9 @@
 # Theme
 theme = Catppuccin Mocha
 
+# Editor
+font-size = 14
+
 # Allow map alt
 macos-option-as-alt=true
 
