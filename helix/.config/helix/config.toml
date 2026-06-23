@@ -2,3 +2,14 @@ theme = 'catppuccin_mocha'
 
 [editor]
 line-number = 'relative'
+cursorline = true
+color-modes = true
+insert-final-newline = false
+trim-final-newlines = true
+trim-trailing-whitespace = true
+popup-border = 'all'
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
