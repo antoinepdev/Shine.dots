@@ -17,3 +17,14 @@ select = "underline"
 
 [editor.statusline]
 left = ['spinner', 'version-control', 'file-name', 'file-modification-indicator']
+
+[keys.normal.space]
+w = { w = ":w", q = ":wq" }
+x = ':q!'
+
+[keys.normal]
+F5 = ':config-reload'
+q = ':buffer-close'
+
+[keys.insert]
+j = {k = 'normal_mode'}
