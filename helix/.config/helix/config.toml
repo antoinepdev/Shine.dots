@@ -13,3 +13,6 @@ popup-border = 'all'
 insert = "bar"
 normal = "block"
 select = "underline"
+
+[editor.statusline]
+left = ['spinner', 'version-control', 'file-name', 'file-modification-indicator']
