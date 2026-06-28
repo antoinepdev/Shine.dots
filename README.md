@@ -3,6 +3,7 @@
 ## Features
 - 👻 **Ghostty** support: Manage tabs and splits easily
 - 🦀 **Helix** support (experimental): Modal edition, ultra fast, pre-configured with language servers, keymaps for a smooth editing experience.
+- 🐚 **Bash**: Terminal alias.
 - 🐈 **Kitty** support: Catppuccin theme, designed to work seamlessly with the **Hyprland** ecosystem.
   > **Note:** Since Kitty is intended for use with Hyprland, keyboard shortcuts are not defined in the Kitty config; all window management is handled by Hyprland itself.
 
