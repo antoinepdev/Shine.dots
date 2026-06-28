@@ -10,3 +10,6 @@ alias lsa='ls -a --color=auto'
 
 # Code Editor
 alias h='helix'
+
+# Zoxide
+eval "$(zoxide init bash)"

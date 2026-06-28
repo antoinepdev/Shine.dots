@@ -3,7 +3,7 @@
 ## Features
 - 👻 **Ghostty** support: Manage tabs and splits easily
 - 🦀 **Helix** support (experimental): Modal edition, ultra fast, pre-configured with language servers, keymaps for a smooth editing experience.
-- 🐚 **Bash**: Terminal alias.
+- 🐚 **Bash**: Terminal alias, fast directory navegation with `zoxide`.
 - 🐈 **Kitty** support: Catppuccin theme, designed to work seamlessly with the **Hyprland** ecosystem.
   > **Note:** Since Kitty is intended for use with Hyprland, keyboard shortcuts are not defined in the Kitty config; all window management is handled by Hyprland itself.
 
@@ -11,6 +11,7 @@
 - Git
 - Gnu Stow
 - A Nerd Font (optional); use `JetBrainsMonoFont` for not extra config.
+- Zoxide (only for bash dotflies)
 
 > **Note:** To use the configurations of a program, you need to have the program installed, for example, for Helix config you need (Helix >= 25.07.1).
 
