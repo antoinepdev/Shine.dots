@@ -3,12 +3,15 @@
 ## Features
 - 👻 **Ghostty** support: Manage tabs and splits easily
 - 🦀 **Helix** support (experimental): Modal edition, ultra fast, pre-configured with language servers, keymaps for a smooth editing experience.
+- 🐈 **Kitty** support: Catppuccin theme, designed to work seamlessly with the **Hyprland** ecosystem.
+  > **Note:** Since Kitty is intended for use with Hyprland, keyboard shortcuts are not defined in the Kitty config; all window management is handled by Hyprland itself.
 
 ## Dependencies
 - Git
 - Gnu Stow
+- A Nerd Font (optional); use `JetBrainsMonoFont` for not extra config.
 
-> **Note:** To use the configurations for Helix, you need to have the editor installed (Helix >= 25.07.1).
+> **Note:** To use the configurations of a program, you need to have the program installed, for example, for Helix config you need (Helix >= 25.07.1).
 
 ## Clone dotfiles
 ```bash
