@@ -11,5 +11,8 @@ alias lsa='ls -a --color=auto'
 # Code Editor
 alias h='helix'
 
+# Lazygit
+alias lg='lazygit'
+
 # Zoxide
 eval "$(zoxide init bash)"
