@@ -1,7 +1,7 @@
-✨ My personal dotfiles for Linux using Gnu Stow as dotfiles manager.
+✨ My personal dotfiles for Arch Linux using Gnu Stow as dotfiles manager.
 
 ## Features
-- 👻 **Ghostty** support: Manage tabs and splits easily
+- 👻 **Ghostty** support: Manage tabs and splits easily (recommended if you don't use a window manager)
 - 🦀 **Helix** support (experimental): Modal edition, ultra fast, pre-configured with language servers, keymaps for a smooth editing experience.
 - 🐚 **Bash**: Terminal alias, fast directory navegation with `zoxide`.
 - 🐈 **Kitty** support: Catppuccin theme, designed to work seamlessly with the **Hyprland** ecosystem.
