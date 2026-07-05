@@ -1,0 +1,22 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = "$os$username$directory$character"
+
+[os.symbols]
+Arch = ' '
+
+[os]
+disabled = false
+style = "blue"
+
+[username]
+style_user = "#BD93F9"
+show_always = true
+
+[directory]
+style = "green"
+
+[character]
+success_symbol = "[➜](green)"  # o "❯" en verde
+error_symbol = "[✗](red)"

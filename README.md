@@ -12,9 +12,10 @@
     1. wl-clipboard (if you use a window manager based on wayland): manage copy paste successfully
 
 ### Shell
-- 🐚 **Bash**: Terminal alias, fast directory navegation with `zoxide`.
+- 🐚 **Bash**: Terminal alias, fast directory navegation with zoxide.
   - Dependencies (Plugins):
     1. **Zoxide**: a smarter cd command
+    2. **Starship**: enhance your shell prompt
 
 ## Dependencies
 - Git

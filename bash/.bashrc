@@ -1,5 +1,5 @@
 [[ $- != *i* ]] && return # dont load .bashrc config on not interactive shells like ssh
-PS1='\u \W\ $ ' # Config initial prompt
+# PS1='\u \W\ $ ' # Config initial prompt
 
 # Paths
 export PATH="$HOME/.local/bin:$PATH"
@@ -13,6 +13,9 @@ alias h='helix'
 
 # Lazygit
 alias lg='lazygit'
+
+# Starship
+eval "$(starship init bash)"
 
 # Zoxide
 eval "$(zoxide init bash)"
