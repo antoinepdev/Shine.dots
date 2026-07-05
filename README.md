@@ -17,6 +17,14 @@
     1. **Zoxide**: a smarter cd command
     2. **Starship**: enhance your shell prompt
 
+### Hyprland
+Eficent window managment, modern, minimalist and beatiful desktop
+  - Depenencies
+  1. **waybar**: enhance task bar
+  2. **hyprpaper**: for wallpapers
+  3. **brightnessctl**: handle brightness
+  4. **pulseaudio**: handle sound
+  5. **wl-clipboard **: copy paste successfully
 ## Dependencies
 - Git
 - Gnu Stow
