@@ -18,6 +18,10 @@ select = "underline"
 [editor.statusline]
 left = ['spinner', 'version-control', 'file-name', 'file-modification-indicator']
 
+[editor.file-picker]
+hidden = false
+git-ignore = false
+
 [keys.normal.space]
 w = { w = ":w", q = ":wq" }
 x = ':q!'
