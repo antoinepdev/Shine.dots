@@ -25,6 +25,7 @@ git-ignore = false
 [keys.normal.space]
 w = { w = ":w", q = ":wq" }
 x = ':q!'
+n = ':open ~/Files/Shine.docs/' # Replace with your notes folder path
 
 [keys.normal]
 F5 = ':config-reload'
