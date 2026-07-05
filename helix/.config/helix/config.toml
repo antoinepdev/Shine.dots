@@ -10,6 +10,7 @@ trim-trailing-whitespace = true
 popup-border = 'all'
 end-of-line-diagnostics = 'hint'
 continue-comments = false
+scrolloff= 10
 
 [editor.cursor-shape]
 insert = "bar"
