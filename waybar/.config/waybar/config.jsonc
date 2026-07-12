@@ -17,6 +17,7 @@
         "memory",
         "cpu",
         "network",
+        "bluetooh",
         "battery",
         "backlight",
         "pulseaudio",
@@ -98,16 +99,6 @@
         }
     },
 
-    "pulseaudio#microphone": {
-        "format": "{format_source}",
-        "format-source": " {volume}%",
-        "format-source-muted": "  Muted",
-        "on-click": "pamixer --default-source -t",
-        "on-scroll-up": "pamixer --default-source -i 5",
-        "on-scroll-down": "pamixer --default-source -d 5",
-        "scroll-step": 5
-    },
-
     "memory": {
         "states": {
             "c": 90, // critical
@@ -142,5 +133,25 @@
         "tooltip-format-disconnected": "Disconnected",
         "format-alt": "<span foreground='#99ffdd'> {bandwidthDownBytes}</span> <span foreground='#ffcc66'> {bandwidthUpBytes}</span>",
         "interval": 2
+    },
+
+    "bluetooth": {
+        // Formato principal: muestra el estado y el alias del dispositivo conectado
+        "format": "{status} {device_alias}",
+        // Formato cuando está conectado a al menos un dispositivo
+        "format-connected": " {device_alias}",
+        // Formato cuando está encendido pero sin dispositivos conectados
+        "format-on": "",
+        // Formato cuando está apagado
+        "format-off": "",
+        // Tooltip: muestra la lista de dispositivos conectados al pasar el mouse
+        "tooltip-format-connected": "Dispositivos conectados:\n{device_enumerate}",
+        // Formato de cada dispositivo en la lista del tooltip
+        "tooltip-format-enumerate-connected": "  • {device_alias}",
+        // Comandos para interactuar con el módulo
+        "on-click": "blueman-manager",          // Abre el gestor de Bluetooth (o usa `blueberry` o `bluetoothctl`)
+        "on-click-right": "bluetoothctl toggle", // Apaga/enciende Bluetooth
+        "on-scroll-up": "bluetoothctl power on",
+        "on-scroll-down": "bluetoothctl power off"
     }
 }
