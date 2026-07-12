@@ -7,6 +7,7 @@ hl.bind(leaderKey .. " + l", hl.dsp.focus({ direction = "right" })) -- focus rig
 hl.bind(leaderKey .. " + k",    hl.dsp.focus({ direction = "up" })) -- focus up window
 hl.bind(leaderKey .. " + j",  hl.dsp.focus({ direction = "down" })) -- focus down window
 hl.bind(leaderKey .. " + s",  hl.dsp.window.fullscreen({ mode = 'maximized'})) -- toggle maximized
+hl.bind('f11',  hl.dsp.window.fullscreen({ mode = 'fullscreen'})) -- toggle maximized
 
 -- Launch Apps
 hl.bind('SUPER' .. " + q", hl.dsp.exec_cmd('kitty')) -- new terminal
