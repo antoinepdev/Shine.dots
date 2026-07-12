@@ -1,4 +1,5 @@
 {
+    "reload_style_on_change": true,
     "layer": "top",
     "position": "top",
     "mode": "dock",
@@ -19,7 +20,6 @@
         "battery",
         "backlight",
         "pulseaudio",
-        "pulseaudio#microphone"
     ],
 
     "hyprland/window": {
