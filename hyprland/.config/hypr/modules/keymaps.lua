@@ -11,9 +11,10 @@ hl.bind('f11',  hl.dsp.window.fullscreen({ mode = 'fullscreen'})) -- toggle maxi
 
 -- Launch Apps
 hl.bind('SUPER' .. " + q", hl.dsp.exec_cmd('kitty')) -- new terminal
+hl.bind(leaderKey .. " + f", hl.dsp.exec_cmd("rofi -show drun"))
 hl.bind('f1', hl.dsp.exec_cmd('kitty --class btop btop')) -- process manager
 hl.bind(leaderKey .. ' + g', hl.dsp.exec_cmd('kitty --class lazygit lazygit')) -- git manager
-hl.bind(leaderKey .. " + b", hl.dsp.exec_cmd('kitty zen')) -- browser
+hl.bind(leaderKey .. " + b", hl.dsp.exec_cmd('chromium')) -- browser
 hl.bind(leaderKey .. " + e", hl.dsp.exec_cmd('dolphin')) -- file manager
 
 -- Workspace Managment
