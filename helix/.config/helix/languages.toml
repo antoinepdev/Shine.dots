@@ -1,3 +1,7 @@
 [[language]]
 name = "markdown"
 language-servers = [ "marksman" ]
+
+[[language]]
+name = "css"
+language-servers = [ "vscode-css-language-server", "tailwindcss-ls" ]
