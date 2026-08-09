@@ -17,7 +17,7 @@
         "memory",
         "cpu",
         "network",
-        "bluetooh",
+        "bluetooth",
         "battery",
         "backlight",
         "pulseaudio",
@@ -149,7 +149,7 @@
         // Formato de cada dispositivo en la lista del tooltip
         "tooltip-format-enumerate-connected": "  • {device_alias}",
         // Comandos para interactuar con el módulo
-        "on-click": "blueman-manager",          // Abre el gestor de Bluetooth (o usa `blueberry` o `bluetoothctl`)
+        "on-click": "bluetoothctl",          // Abre el gestor de Bluetooth (o usa `blueberry` o `bluetoothctl`)
         "on-click-right": "bluetoothctl toggle", // Apaga/enciende Bluetooth
         "on-scroll-up": "bluetoothctl power on",
         "on-scroll-down": "bluetoothctl power off"

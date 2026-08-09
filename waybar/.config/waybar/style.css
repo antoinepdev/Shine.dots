@@ -45,6 +45,7 @@ window#waybar {
 #battery,
 #pulseaudio,
 #network,
+#bluetooth,
 #cpu,
 #memory,
 #workspaces,
@@ -94,6 +95,10 @@ window#waybar {
     border-radius: 10px 10px 10px 10px;
     margin-left: 5px;
     border-right: 0px;
+}
+
+#bluetooth {
+    color: #a6adc8;
 }
 
 #network {
