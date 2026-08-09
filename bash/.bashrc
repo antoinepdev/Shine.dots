@@ -3,7 +3,8 @@
 
 # Paths
 export PATH="$HOME/.local/bin:$PATH"
-
+export PATH="$HOME/.cache/.bun/bin:$PATH"
+export PATH="$HOME/.cargo/bin/:$PATH"
 # Basic Alias
 alias ls='ls --color=auto'
 alias lsa='ls -a --color=auto'
