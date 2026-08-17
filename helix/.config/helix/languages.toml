@@ -5,3 +5,15 @@ language-servers = [ "marksman" ]
 [[language]]
 name = "css"
 language-servers = [ "vscode-css-language-server", "tailwindcss-ls" ]
+
+# Typescript
+[language-server.vtsls]
+command = "vtsls"
+args = ["--stdio"]
+
+[language-server.vtsls.config]
+hostInfo = "helix"
+
+[[language]]
+name = "typescript"
+language-servers = [ "vtsls" ]
