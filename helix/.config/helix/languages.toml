@@ -6,6 +6,11 @@ language-servers = [ "marksman" ]
 name = "css"
 language-servers = [ "vscode-css-language-server", "tailwindcss-ls" ]
 
+## Biome Js
+[language-server.biome]
+command = "biome"
+args = ["lsp-proxy"]
+
 # Typescript
 [language-server.vtsls]
 command = "vtsls"
@@ -16,6 +21,5 @@ hostInfo = "helix"
 
 [[language]]
 name = "typescript"
-language-servers = [ "vtsls" ]
-formatter = { command = "/home/antoinepdev/.config/helix/scripts/biome-format.sh", args = ["file.ts"] }
+language-servers = [ { name = "vtsls", except-features = [ "format" ] }, "biome" ]
 auto-format = true
