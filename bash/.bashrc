@@ -5,6 +5,8 @@
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.cache/.bun/bin:$PATH"
 export PATH="$HOME/.cargo/bin/:$PATH"
+export PATH="$HOME/.local/share/npm/bin:$PATH"
+
 # Basic Alias
 alias ls='ls --color=auto'
 alias lsa='ls -a --color=auto'
@@ -20,3 +22,6 @@ eval "$(starship init bash)"
 
 # Zoxide
 eval "$(zoxide init bash)"
+
+# opencode
+export PATH=/home/antoinepdev/.opencode/bin:$PATH
